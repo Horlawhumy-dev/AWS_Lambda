@@ -15,6 +15,7 @@ lint:
 
 all: install lint test
 
-#Run make install
-#Run make lint
+#Run make install to install commands
+#Run make lint to run pylint
+#Run make all to verify output
 #pip packages => pip install pylint, pytest, black, ipython
