@@ -1,0 +1,11 @@
+version = 0.1
+["public.ecr.aws/a0r8v3o0/wikipedia-api"]
+["public.ecr.aws/a0r8v3o0/wikipedia-api".deploy]
+["public.ecr.aws/a0r8v3o0/wikipedia-api".deploy.parameters]
+stack_name = "wiki-lambda-artifact"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-4psvzpvlwj4p"
+s3_prefix = "wiki-lambda-artifact"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=706101214519.dkr.ecr.us-east-2.amazonaws.com/wikilambdaartifactae5b6335/helloworldfunction19d43fc4repo"]
